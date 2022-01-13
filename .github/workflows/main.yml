@@ -46,6 +46,6 @@ jobs:
           git checkout "$SOUCRE_BRANCH"
           git status
           git checkout "$TARGET_BRANCH"
-          git merge "$SOUCRE_BRANCH" --no-edit -ff
+          git merge "$SOUCRE_BRANCH" --no-edit --ff
           git push
           git status
